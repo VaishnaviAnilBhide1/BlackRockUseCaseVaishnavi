@@ -1,4 +1,6 @@
-#UI output
+# UI AND API README
+
+# UI output
 
 ![UI output](./Images/appUI.png)
 
@@ -15,13 +17,44 @@
 ![Backend Swagger output](./Images/swagger.png)
 
 
+# UI README
 
+## Overview
+
+The app consists of a simple frontend and corresponding backend that simulates the system for 20 time steps. The UI is fully responsive and developed with React JS and React-Bootstrap for styling.
+
+## Instructions
+
+1) Run the following commands to initialize react project
+
+```bash
+npx create-react-app my-app
+cd my-app
+npm install
+```
+Make sure you have node installed.
+
+2) To install React- Bootstrap run:
+   ```bash
+   npm install react-bootstrap bootstrap
+   ```
+3) To run the project
+
+```bash
+
+  npm start
+  ```
+4) To run tests:
+```bash
+ npm test
+```
 
 
 # API README
 
 ## Overview
-This API serves a specific purpose, providing functionalities to perform calculations based on input parameters. It offers endpoints for different operations and includes an automatically generated API documentation adhering to the OpenAPI schema.
+This API serves a specific purpose, providing functionalities to perform calculations based on input parameters. It offers endpoints for different operations and includes an automatically generated API documentation adhering to the OpenAPI schema. I have also created a Swagger link to test the API easily
+
 
 ## Usage
 
@@ -45,6 +78,9 @@ The following endpoints are exposed by the API:
 
 - `/docs`: 
   - Auto-generated API documentation conforming to the OpenAPI schema.
+
+### Swagger Link for API testing
+http://localhost:8000/docs#/default/process_data_calculate_post
 
 ### Requirements
 - Python version 3 or higher should be installed.
