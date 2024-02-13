@@ -12,7 +12,11 @@
 
 ![failure alert output](./Images/failure.png)
 
+# Postman output
+
 ![Backend Postman output](./Images/postmanoutput.png)
+
+# Swagger Output
 
 ![Backend Swagger output](./Images/swagger.png)
 
