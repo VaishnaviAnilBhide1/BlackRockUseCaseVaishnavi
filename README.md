@@ -25,7 +25,7 @@
 
 ## Overview
 
-The app consists of a simple frontend and corresponding backend that simulates the system for 20 time steps. The UI is fully responsive and developed with React JS and React-Bootstrap for styling.
+The app consists of a simple frontend and corresponding backend that simulates the system for 20 time steps. The UI is fully responsive and developed with React JS and React-Bootstrap for styling. The table is scrollable and has a sticky header.
 
 ## Instructions
 
